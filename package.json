@@ -1,0 +1,56 @@
+{
+  "name": "octra-sdk",
+  "version": "1.1.1",
+  "description": "Community JavaScript SDK for the Octra blockchain",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/octra-sdk.cjs",
+  "module": "./dist/octra-sdk.js",
+  "browser": "./dist/octra-sdk.min.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/octra-sdk.js",
+      "require": "./dist/octra-sdk.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "keywords": [
+    "octra",
+    "blockchain",
+    "web3",
+    "sdk",
+    "wallet",
+    "smart-contract",
+    "crypto",
+    "fhe"
+  ],
+  "author": "Fuad",
+  "homepage": "https://github.com/xprobo/octra-sdk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xprobo/octra-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xprobo/octra-sdk/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "tweetnacl": "^1.0.3",
+    "bip39": "^3.1.0",
+    "bs58": "^6.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}
