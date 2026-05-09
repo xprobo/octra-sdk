@@ -458,7 +458,7 @@ octra.utils.sha256(
 # Global Browser Usage
 
 ```html
-<script src="./octra-sdk.min.js"></script>
+<script src=""https://cdn.jsdelivr.net/npm/octra-sdk/dist/octra-sdk.min.js"></script>
 
 <script>
   const wallet =
